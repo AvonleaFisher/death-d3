@@ -8,4 +8,4 @@
     
 ### Live Deploy of the Github Repo
 
-https://master.d2ug7bdag1nlfw.amplifyapp.com
+https://master.d3k2s49xelj01q.amplifyapp.com/
