@@ -129,7 +129,7 @@ const drawChart = (data, bin) => {
 			//Manipulates Text Box
 			var allData = "Total Deaths from " + formatDay(d.x0) + " to " + formatDay(d.x1) +": "+ d.length + "<br/>" + "<br/>"; 
 			for (var i = 0; i < d.length; i++){
-			 	allData += textFormat(d[i].DeceasedFirstName) + " " + textFormat(d[i].DeceasedLastName) + " " +  "died on " + d[i].DateOfDeath + " " + d[i].Miles + " miles from home" + "<br/>";
+			 	allData += textFormat(d[i].DeceasedFirstName) + " " + textFormat(d[i].DeceasedLastName) + " " +  "died on" + d[i].DateOfDeath + " " + d[i].Miles + "miles from home" + "<br/>";
 			}
 			d3.select("div.textbox").style("opacity", .9).html(allData); 	
 
