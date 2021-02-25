@@ -9,7 +9,7 @@ const bar_margin_percent = 0.8;
 //Capitalizes first letter, lowercases all of the rest
 function textFormat(string) {
 	var temp = string.toLowerCase();
-  	return temp.charAt(1).toUpperCase() + temp.slice(2);
+  	return temp.charAt(0).toUpperCase() + temp.slice(1);
 }
 
 //Finds the average of an array
